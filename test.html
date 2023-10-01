@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#بعض من اعمالنا">الصفحة الرئيسية</a></li>
+            <li><a href="#من نحن">من نحن</a></li>
+            <li><a href="#صاحب الفرقة">اتصل بنا</a></li>
+          </ul>
+        </nav>
+      </header>
+ <center>
+    <h3 id="بعض من الاغمال">تواصل معنا على واتس اب</h3>
+      <a href="https://wa.me/218926134631" target="_blank" class="whatsapp-button">
+        <span>نتشرف بخدمتكم</span>
+      </a>
+      <h3 class="a">بعض من الاعمال</h3>
+ </center>
+ <div class="p">
+ <img src="br.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="br2.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="br3.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="br4.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="gg.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="gt.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="images.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="a.jpg" width="300" height="200" alt="وصف الصورة">
+ <img src="باركيه.jpg" width="300" height="200" alt="وصف الصورة">
+ </div>
+  
+  <script src="script.js"></script>
+  <hr> <style>
+    hr {
+      height: 3px;
+      background: linear-gradient(to right, red, yellow, green, blue);
+      border: none;
+    }
+  </style>
+  <center>
+    <h2 id="من نحن">من نحن</h2>
+  </center>
+  <p>نحن فرقة ذات خبرة في تركيب الباركيه، حيث قمنا بتنفيذ العديد من المشاريع الناجحة في هذا المجال. نتميز بالمهارة والاحترافية في تركيب الباركيه وتقديم خدمات عالية الجودة لعملائنا.
+    متخصصين في تركيب الباركيه. نستخدم أحدث التقنيات والأدوات لضمان التركيب الدقيق والمتانة العالية للأرضيات. نحرص على تلبية احتياجات عملائنا وتحقيق رضاهم التام.
+    بغض النظر عن حجم المشروع، فإننا قادرون على التعامل معه بكفاءة وفقًا للمعايير الصناعية. نحن نقدم استشارات مهنية ونوصي بأفضل المواد والتشطيبات المناسبة لاحتياجاتك. كما نلتزم بالجودة والتسليم في الوقت المحدد
+    اختيارنا يعني اختيار الجودة والاحترافية. اتصل بنا اليوم للحصول على استشارة وتقدير مجاني لمشروع تركيب الباركيه الخاص بك. نحن هنا لتحويل رؤيتك إلى حقيقة تحت قدميك.
+</p>
+    <hr>
+
+<center>
+    <h1 id="صاحب الفرقة">صاحب الفرقة</h1>
+    <h4>أبو بكر العريبي</h4>
+    <p onclick="copyNumber()">218926134631</p>
+
+<script>
+function copyNumber() {
+  const number = '218926134631';
+  navigator.clipboard.writeText(number)
+    .then(() => {
+      alert('تم نسخ الرقم بنجاح!');
+    })
+    .catch(err => {
+      console.error('حدث خطأ أثناء نسخ الرقم:', err);
+    });
+}
+</script>
+</center>
+</body>
+</html>
